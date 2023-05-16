@@ -1,0 +1,12 @@
+$primary-color: #fff;
+$secondary-color: #333;
+
+[data-theme="light"] {
+  body {
+    background-color: $primary-color;
+    color: $secondary-color;
+    --button-bg-color: $secondary-color;
+    --button-border-color: #144fd9;
+    --button-text-color: #333;
+  }
+}

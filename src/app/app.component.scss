@@ -1,0 +1,12 @@
+.button {
+  background-color: var(--button-bg-color);
+  border-color: var(--button-border-color);
+  color: var(--button-text-color);
+  margin: var(--app-test-margin);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
